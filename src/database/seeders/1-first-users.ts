@@ -4,8 +4,8 @@ export default {
     up: (queryInterface: QueryInterface) => {
         return queryInterface.bulkInsert("users", [
             {
-                name: "Vinny",
-                email: "vinicius@email.com",
+                name: "Diovane",
+                email: "diovane@email.com",
                 nivel: NIVEL_USER.ADMIN,
                 senha: "12345678",
                 createdAt: new Date().toISOString(),
